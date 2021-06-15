@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Home"
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home"
+        />
+    <item
+        android:title="Distination"
+        android:icon="@drawable/destination"
+        android:id="@+id/nav_destination"
+        />
+    <item android:title="Treatment"
+        android:id="@+id/nav_treatment"
+        android:icon="@drawable/heal"
+        />
+    <item android:title="Doctors"
+        android:id="@+id/nav_doctors"
+        android:icon="@drawable/doctor"
+        />
+    <item android:title="Medicine Centers"
+        android:icon="@drawable/center"
+
+        android:id="@+id/nav_medicine_centers"
+        />
+
+
+</menu>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "299941584431",
+    "firebase_url": "https://medical-tourism-2367d.firebaseio.com",
+    "project_id": "medical-tourism-2367d",
+    "storage_bucket": "medical-tourism-2367d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299941584431:android:61c2c471c5d4ab9a14f0da",
+        "android_client_info": {
+          "package_name": "com.jaypal.navigation_drawer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299941584431-aim9n3a6amu83o13u8pga5ahfpk6ilus.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6QaXlJH-ieidHpa5e_HCkCdLJZWn-0Js"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299941584431-aim9n3a6amu83o13u8pga5ahfpk6ilus.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            style="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="PLEASE READ THESE TERMS OF USE CAREFULLY. BY CONTINUING TO ACCESS AND USE THIS APPLICATION YOU CONFIRM THAT YOU ACCEPT OUR TERMS AND CONDITIONS DESCRIBED HEREIN. IF YOU DO NOT AGREE THE TERMS OF USE, DO NOT USE THIS APPLICATION.Welcome to mfine mobile Application (defined hereunder). The Application is operated by Novocura Tech Health Services Private Limited (“NTHS”), having its registered office at Salarpuria Sattva Supreme, 2nd Floor, West Wing, Sarjapur Outer Ring Road, Marathahalli, Bengaluru 560037.The terms “You” or “Your” refer to you as the user (irrespective of whether You are a Registered User (defined hereunder), HSP Registered User (defined hereunder) or a Non-Registered User (defined hereunder)) and the terms “NTHS”, “We”, “Us”, “Company”, “Our” and/or “mfine” refer to NTHS. In the event the Application is being used by a person on your behalf, the expression “You” or “Your” or the “User” shall apply to such person as well.These Terms of Use, Privacy Policy, together with any additional Service specific terms and conditions, other policies which may be applicable to specific portions of the Application and any disclaimers which may be present on the Application are jointly referred to as “Agreement” and constitute the terms of Your access and use of the Application and the Services (defined hereunder). Where any part of the Agreement is modified in accordance with the terms of the Agreement, the Agreement shall be enforceable in its modified form.The Agreement supersedes all previous oral and written terms and conditions (if any) communicated to You."
+            android:textColor="#171616"
+            android:textSize="15dp" />
+    </ScrollView>
+
+</LinearLayout>

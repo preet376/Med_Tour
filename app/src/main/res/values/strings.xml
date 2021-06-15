@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Medical Tourism</string>
+    <string name="nav_Drawer_Open">Open Navigation Drawer</string>
+    <string name="nav_Drawer_close">Close Navigati</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="top_specialists">Top Specialists</string>
+    <string name="destinations">Destinations</string>
+    <string name="medical_centers">Medical centers</string>
+
+    <string name="title_activity_destinction_detail">destinction_detail</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="pasos">100 Pasos is an official sanitary establishment specialized in the foot. We have what is necessary so that citizens of Toledo and its surroundings can enjoy the best and most accessible treatments.\n
+
+‍
+
+We are expert podiatrists in sports medicine; accepting the challenges that this supposes so much for the professionals as for the athlete who is accompanied until his sport improvement. And the attention to the growth of the smallest of the house (pediatrics) is also our other strong point.</string>
+    <string name="hello_world">Hello Square World!</string>
+    <string name="wether">Abu Dhabi has a hot desert climate. Sunny blue skies can be expected throughout the year. The months of June through September are generally extremely hot and humid with maximum temperatures averaging above 41 °C (106 °F). During this time, sandstorms occur intermittently, in some cases reducing visibility to a few meters. The cooler season is from November to March, which ranges between moderately hot to mild. This period also sees dense fog on some days and a few days of rain. </string>
+    <string name="know">Abu Dhabi is the capital city of the United Arab Emirates and sits off the mainland on an island in the Persian Gulf. The economy of the UAE is the second largest in the Arab World, after Saudi Arabia, and mainly focuses on oil exports and commerce. Except for Dubai, which was helped by Abu Dhabi during its recent economic crisis, the entire destination still relies on the revenues that come from the oil industry, while trying to build a tourism hub that can help shift that pattern in the future. Tourism is now one of the main sources of revenue in the UAE; not only does it feature some of the worlds most luxurious hotels, but there are also huge, hub-style airports with state-of-the-art facilities. Today, the UAE is the 31st largest economy by nominal GDP and is home to more than 9.4 million people. Similar to Dubai, its healthcare system is a mix of public and private, with the public system being more of a comprehensive system that cares for entire patient needs, in addition to all legal residents living in the capital city. The private sector keeps building state of the art facilities and caters to medical tourism. </string>
+</resources>

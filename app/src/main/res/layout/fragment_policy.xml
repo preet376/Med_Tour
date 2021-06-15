@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            style="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="We value the trust You (defined below) place in Us (defined below). That’s why We (defined below) insist upon the highest standards for secure transactions and customer information privacy. Please read the following statement to learn about Our (defined below) information gathering and dissemination practices.Novocura Tech Health Services Private Limited (“NTHS”, which also include its affiliates), having its registered office address at Salarpuria Sattva Supreme, 2nd Floor, West Wing, Sarjapur Outer Ring Road, Marathahalli, Bengaluru 560037.NTHS is committed to respecting the privacy of every person who shares information with it or whose information it receives. Your (defined below) privacy is important to Us (defined below) and We (defined below) strive to take care and protect the information We (defined below) receive from You (defined below) to the best of Our (defined below) ability.This Privacy Policy (“Privacy Policy”) applies to the collection, receipt, storage, usage, processing, disclosure, transfer and protection (“Utilization”) of your Personal Information (defined below) when You use the mfine website available at URL: www.mfine.* (where * represents various domain names) operated by NTHS (“Website”) or mobile application of brand name “mfine” available for download at Google Play Store, Apple App Store, Windows App Store (“Application”) operated by NTHS or avail any Services offered by NTHS through the Website or Application.The terms ‘You’ or ‘Your’ refer to you as the user (registered or unregistered) of the Website, Application or Services and the terms ‘We’, ‘Us” and ‘Our’ refer to NTHS."
+            android:textColor="#171616"
+            android:textSize="16dp" />
+    </ScrollView>
+
+</LinearLayout>

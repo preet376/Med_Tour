@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:elevation="3dp"
+    app:cardCornerRadius="7dp"
+    android:padding="5dp"
+    android:layout_margin="7dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/tr4"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:id="@+id/item_img"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dr. Prashant"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:id="@+id/item_name_doctor"
+                android:layout_margin="5dp"
+                android:layout_toEndOf="@id/item_img"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15 yrs Experiance"
+                android:padding="2dp"
+                android:layout_margin="4dp"
+                android:id="@+id/item_doctor_experiance"
+                android:layout_below="@id/item_name_doctor"
+                android:layout_toRightOf="@id/item_img"
+                android:background="#C8E4A8"
+                />
+
+
+            <TextView
+                android:id="@+id/item_doctor_doller"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_name_doctor"
+                android:layout_alignStart="@+id/item_doctor_experiance"
+                android:layout_alignEnd="@+id/item_doctor_fee"
+                android:layout_marginStart="127dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="-5dp"
+                android:layout_marginBottom="4dp"
+                android:layout_toLeftOf="@+id/item_doctor_fee"
+                android:background="#B3DCD8"
+                android:gravity="center_horizontal"
+                android:padding="2dp"
+                android:text="$" />
+
+            <TextView
+                android:id="@+id/item_doctor_fee"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_name_doctor"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="4dp"
+
+                android:layout_marginBottom="4dp"
+                android:layout_toRightOf="@id/item_doctor_experiance"
+                android:background="#B3DCD8"
+                android:gravity="center_horizontal"
+                android:paddingStart="3dp"
+                android:paddingEnd="10dp"
+                android:text="240" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MBBS MD"
+                android:padding="2dp"
+                android:layout_margin="3dp"
+                android:id="@+id/item_doctor_education"
+                android:layout_below="@id/item_doctor_experiance"
+                android:layout_toRightOf="@id/item_img"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Physician"
+                android:textStyle="bold"
+                android:padding="1dp"
+                android:layout_marginLeft="3dp"
+                android:textColor="@android:color/black"
+                android:id="@+id/item_doctor_special"
+                android:layout_below="@id/item_doctor_education"
+                android:layout_toRightOf="@id/item_img"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Indranagar"
+                android:padding="1dp"
+                android:layout_marginLeft="3dp"
+                android:id="@+id/doctor_addr"
+                android:layout_toRightOf="@id/item_img"
+                android:layout_below="@+id/item_doctor_special"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

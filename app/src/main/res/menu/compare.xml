@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <group
+            android:id="@+id/grp1"
+            android:checkableBehavior="single"
+            >
+            <item android:id="@+id/home"
+                android:title="Angioplasty"
+               /></group>
+        <group android:checkableBehavior="single"
+            android:id="@+id/grp2"
+            >
+            <item android:id="@+id/p_profile"
+                android:title="Heart Bypass"
+               /></group>
+        <group android:checkableBehavior="single"
+            android:id="@+id/grp3"
+           >
+            <item android:id="@+id/p_history"
+                android:title="Heart Valve Replacement"
+               /></group>
+        <group android:checkableBehavior="single"
+            android:id="@+id/grp4"
+            >
+            <item android:id="@+id/m_cards"
+                android:title="Hip Replacement"
+               /></group>
+        <group android:checkableBehavior="single"
+            android:id="@+id/grp5"
+            >
+            <item android:id="@+id/menu_friends"
+                android:title="Hip Resurfacing"
+                /></group>
+
+        <group android:checkableBehavior="single"
+            android:id="@+id/grp6"
+            >
+            <item android:id="@+id/notification"
+                android:title="Knee Replacement"
+                /></group>
+        <group android:checkableBehavior="single"
+            android:id="@+id/grp7"
+            >
+            <item android:id="@+id/about"
+                android:title="Spinal Fusion"
+              /></group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp8"
+        >
+        <item android:id="@+id/notification1"
+            android:title="Dental Implant"
+            /></group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp9"
+        >
+        <item android:id="@+id/notification2"
+            android:title="Lap Band"
+            /></group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp10"
+        >
+        <item android:id="@+id/notification3"
+            android:title="Notification"
+            /></group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp11"
+        >
+        <item android:id="@+id/notification4"
+            android:title="Gastric Sleeve"
+            /></group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp12"
+        >
+        <item android:id="@+id/notification5"
+            android:title="Gastric Bypass"
+            /></group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp13"
+        >
+        <item android:id="@+id/notification6"
+            android:title="Hysterectomy"
+            /></group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp14"
+        >
+        <item android:id="@+id/notification7"
+            android:title="Breast Implants"
+            /></group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp15"
+        >
+        <item android:id="@+id/notification8"
+            android:title="Rhinoplasty"
+            /></group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp16"
+        >
+        <item android:id="@+id/notification9"
+            android:title="Face Lift"
+            /></group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp17"
+        >
+        <item android:id="@+id/notification10"
+            android:title="Liposuction"
+            /></group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp18"
+        >
+        <item android:id="@+id/notification11"
+            android:title="Tummy Tuck"
+            /></group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp19"
+        >
+        <item android:id="@+id/notification12"
+            android:title="Lasik (both eyes)"
+            /></group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp21"
+        >
+        <item android:id="@+id/notification13"
+            android:title="Cataract surgery (per eye)"
+            /></group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp22"
+        >
+        <item android:id="@+id/notification14"
+            android:title="IVF Treatment"
+            /></group>
+
+</menu>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".comapare_final">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar12"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorAccent"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+        android:elevation="4dp"
+        app:title="Medical Tourism"
+        />
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/shimer15"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="23dp"
+            android:background="@android:color/white"
+            android:padding="2dp"
+            android:layout_margin="4dp"
+            android:gravity="center"
+            android:text="International Medical Treatment Prices"
+            android:textColor="#F81A73"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:background="@android:color/white"
+            android:text="The cost of care is one of the most important metrics for destination attractiveness. Naturally, it’s a major driver of health travel. Here, we list the prices of major surgical procedures in key medical tourism destinations throughout the world.
+
+All prices are quoted from 2019."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kagiso"
+            android:background="@android:color/white"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:padding="4dp"
+            android:layout_margin="4dp"
+            android:id="@+id/comname"
+            app:strokeColor="#DC608A"
+            app:strokeWidth="2dp"
+            android:textColor="#F81A73"
+            />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/compare_recycler_final"
+
+            />
+    </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</LinearLayout>

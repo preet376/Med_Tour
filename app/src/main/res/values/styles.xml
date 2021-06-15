@@ -1,0 +1,20 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#01658C</item>
+        <item name="colorPrimaryDark">#E1027368</item>
+        <item name="colorAccent">#03DADA</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+<style name="AppTheme.NoActionBar">
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+    <item name="android:statusBarColor">#E1027368</item>
+</style>
+    <style name="AppTheme.loginActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:statusBarColor">#5567C6</item>
+    </style>
+</resources>
